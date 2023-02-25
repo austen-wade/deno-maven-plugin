@@ -1,0 +1,12 @@
+{
+  "name": "@deno/my-example-app",
+  "description": "An example app created with Deno",
+  "type": "module",
+  "scripts": {
+    "run": "deno run -A main.ts",
+    "compile": "deno compile --output deno-out/out compileTarget.ts"
+  },
+  "dependencies": {
+    "chalk": "^5.2"
+  }
+}
